@@ -1,6 +1,6 @@
 SimpleCms::Application.routes.draw do
-  get "demo1/index"
-
+  #get "demo1/index"
+match ':controller(/:action(/:id))', :via => :get
   get "demo/index"
 
   # The priority is based upon order of creation:
