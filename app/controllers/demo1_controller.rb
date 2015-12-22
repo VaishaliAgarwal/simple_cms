@@ -3,7 +3,7 @@ class Demo1Controller < ApplicationController
   
 
   def index
-  	render(:template => 'demo1/hello')
+  	
   end
 
   def hello
